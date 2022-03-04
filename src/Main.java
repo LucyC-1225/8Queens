@@ -75,7 +75,7 @@ public class Main {
     public static void fillDiag(int[][] arr, int row, int col){
         int r = row;
         int c = col;
-        while (r > 0 && c > 0){
+        while (r >= 0 && c >= 0){
             arr[r][c] = 1;
             r--;
             c--;
